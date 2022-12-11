@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.recorded{
+  position:absolute;
+  width: 640px;
+  height: 480px;
+  mix-blend-mode:multiply;
+  border-style: solid;
+  top:0px;
+  left: 640px;
+}
+
+.reset{
+  position:absolute;
+  width: 640px;
+  height: 480px;
+  z-index: 100;
+  top:0px;
+  left: 640px;
+  visibility: hidden;
+}
+
+.face{
+  position:absolute;
+  width: 150px;
+  height: 180px;
+  z-index: 0;
+  mix-blend-mode: multiply;
+  top:270px;
+  left: 740px;
+}
+
+.room{
+  position:absolute;
+  width: 320px;
+  height: 240px;
+  z-index: 0;
+  mix-blend-mode: multiply;
+  top:240px;
+  left: 640px;
+}
+
+
